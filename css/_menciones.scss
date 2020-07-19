@@ -1,0 +1,47 @@
+@import "./vars";
+
+div.menciones {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-top: 1px solid #bebebe;
+  h1 {
+    font-size: $font_size_title;
+    text-align: center;
+    width: 100%;
+  }
+
+  div.mentions {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    div.content_mention {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 306px;
+      margin-left: 7px;
+      margin-right: 7px;
+      margin-top: 7px;
+      margin-bottom: 7px;
+      box-shadow: $card_shadow;
+      img {
+        width: 100%;
+      }
+
+      h3 {
+        text-align: center;
+        font-size: $font_size_title;
+        margin: 14px;
+      }
+      p {
+        font-size: 12px;
+        margin: 16px;
+        text-align: center;
+      }
+    }
+  }
+}

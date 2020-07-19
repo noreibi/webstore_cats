@@ -1,0 +1,367 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+a {
+  text-decoration: none;
+}
+
+nav.main-menu {
+  background-color: #7acc2d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+nav.main-menu div.nav_options ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav.main-menu div.nav_options ul li {
+  list-style: none;
+  padding-left: 20px;
+}
+
+nav.main-menu div.nav_options ul li a {
+  color: black;
+  font-size: 12px;
+}
+
+header {
+  padding: 160px 142px;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 24px;
+}
+
+div.products {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-image: url("../img/curve.png");
+  background-size: cover;
+  background-position: center top;
+  padding-bottom: 50px;
+}
+
+div.products div.product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 388px;
+  -webkit-box-shadow: 0px 0 2px 1px #e6e5e9;
+          box-shadow: 0px 0 2px 1px #e6e5e9;
+  margin: -20px 5px;
+  padding: 15px;
+  background-color: white;
+  margin-bottom: 50px;
+}
+
+div.products div.product img {
+  max-width: 216px;
+  margin: 38px 0px;
+}
+
+div.products div.product h1 {
+  font-size: 24px;
+}
+
+div.products div.product p {
+  margin: 12px 0px;
+  font-size: 12px;
+  padding: 0px 15px;
+  text-align: center;
+}
+
+div.products div.product a {
+  width: 100%;
+}
+
+div.products div.product a button {
+  background-color: #7acc2d;
+  width: 100%;
+  padding: 10px;
+  font-size: 12px;
+  color: white;
+  border: 0;
+  cursor: pointer;
+  border-radius: 2px;
+  margin-top: 10px;
+}
+
+div.benefic {
+  padding: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+div.benefic div.content {
+  max-width: 335px;
+  min-width: 335px;
+  margin-top: 50px;
+}
+
+div.benefic div.content div.img_content {
+  height: 233.61px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.benefic div.content div.img_content h3 {
+  text-align: center;
+  font-size: 24px;
+  margin: 14px;
+}
+
+div.benefic div.content div.img_content p {
+  font-size: 12px;
+  margin: 16px;
+  text-align: center;
+}
+
+div.menciones {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  border-top: 1px solid #bebebe;
+}
+
+div.menciones h1 {
+  font-size: 24px;
+  text-align: center;
+  width: 100%;
+}
+
+div.menciones div.mentions {
+  padding: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+div.menciones div.mentions div.content_mention {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 306px;
+  margin-left: 7px;
+  margin-right: 7px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  -webkit-box-shadow: 0px 0 2px 1px #e6e5e9;
+          box-shadow: 0px 0 2px 1px #e6e5e9;
+}
+
+div.menciones div.mentions div.content_mention img {
+  width: 100%;
+}
+
+div.menciones div.mentions div.content_mention h3 {
+  text-align: center;
+  font-size: 24px;
+  margin: 14px;
+}
+
+div.menciones div.mentions div.content_mention p {
+  font-size: 12px;
+  margin: 16px;
+  text-align: center;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #222323;
+  font-size: 12px;
+}
+
+footer div.option {
+  font-size: 12px;
+  color: white;
+  padding: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+footer div.option_contact a {
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #7acc2d;
+}
+
+/* clases para animar dandole opacidad al objeto */
+.fadeIn {
+  -webkit-animation-duration: 4s;
+  animation-duration: 4s;
+  animation-fill-mode: both;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* clases para animar desde arriba dezplazando hacia abajo el objeto */
+.fadeInDown {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+
+@-webkit-keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+/* clases para animar desde abajo dezplazando hacia arriba al objeto */
+.fadeInUp {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+body {
+  margin: 0px;
+  font-family: "Open Sans", sans-serif;
+}
+/*# sourceMappingURL=style.css.map */

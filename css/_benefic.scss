@@ -1,0 +1,32 @@
+@import "./vars";
+
+div.benefic {
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  div.content {
+    max-width: 335px;
+    min-width: 335px;
+    margin-top: 50px;
+    div.img_content {
+      height: 233.61px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      h3 {
+        text-align: center;
+        font-size: $font_size_title;
+        margin: 14px;
+      }
+      p {
+        font-size: 12px;
+        margin: 16px;
+        text-align: center;
+      }
+    }
+  }
+}

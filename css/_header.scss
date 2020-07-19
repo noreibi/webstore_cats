@@ -1,0 +1,9 @@
+@import "./vars";
+
+header {
+  padding: 160px 142px;
+  h1 {
+    text-align: center;
+    font-size: $font_size_title;
+  }
+}

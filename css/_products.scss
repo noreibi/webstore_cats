@@ -1,0 +1,50 @@
+@import "./vars";
+
+div.products {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-image: url("../img/curve.png");
+  background-size: cover;
+  background-position: center top;
+  padding-bottom: 50px;
+  div.product {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 388px;
+    box-shadow: $card_shadow;
+    margin: -20px 5px;
+    padding: 15px;
+    background-color: $bg_color_ligth;
+    margin-bottom: 50px;
+    img {
+      max-width: 216px;
+      margin: 38px 0px;
+    }
+    h1 {
+      font-size: $font_size_title;
+    }
+    p {
+      margin: 12px 0px;
+      font-size: $font_size_normal;
+      padding: 0px 15px;
+      text-align: center;
+    }
+    a {
+      width: 100%;
+      button {
+        background-color: $main_color;
+        width: 100%;
+        padding: $spacing;
+        font-size: $font_size_normal;
+        color: $link_ligth;
+        border: 0;
+        cursor: pointer;
+        border-radius: 2px;
+        margin-top: $spacing;
+      }
+    }
+  }
+}
