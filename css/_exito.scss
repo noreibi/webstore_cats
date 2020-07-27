@@ -1,0 +1,40 @@
+@import "./vars";
+
+div.content_paypal {
+  //display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  background-color: #313337;
+
+  div.exito {
+    h2 {
+      color: white;
+    }
+    img {
+      width: 150px;
+    }
+  }
+  img {
+    padding-top: 100px;
+    padding-bottom: 10px;
+  }
+
+  h3 {
+    color: white;
+  }
+  p {
+    color: white;
+    padding-bottom: 150px;
+    margin-bottom: 0px;
+  }
+}
+
+.fadeInDown {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}

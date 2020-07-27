@@ -88,6 +88,7 @@ div.products div.product img {
 
 div.products div.product h1 {
   font-size: 24px;
+  padding-left: 10px;
 }
 
 div.products div.product p {
@@ -358,6 +359,274 @@ footer div.option_contact a {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
   }
+}
+
+div.venta_products {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-position: center top;
+}
+
+div.venta_products div.modulo_pago_img {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 298px;
+  text-align: center;
+  width: 100%;
+  margin-left: inherit;
+}
+
+div.venta_products img {
+  max-width: 298px;
+  margin-top: 40px;
+}
+
+div.venta_products h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+div.venta_products p {
+  text-align: center;
+  padding-bottom: 150px;
+}
+
+div.venta_products div.modulo_pago {
+  margin-top: 40px;
+}
+
+div.venta_products div.modulo_pago form {
+  margin-top: 30px;
+  width: 100%;
+  margin-bottom: 50px;
+  min-width: 500px;
+}
+
+div.venta_products div.modulo_pago form input[type="text"] {
+  overflow: visible;
+  background-color: #ebebeb;
+  width: 100%;
+  max-width: 500px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 0px;
+  border-radius: 2px;
+  margin-top: 10px;
+}
+
+div.venta_products div.modulo_pago form input[type="submit"] {
+  overflow: visible;
+  background-color: #7acc2d;
+  width: 100%;
+  padding: 10px;
+  font-size: 12px;
+  color: white;
+  border: 0;
+  cursor: pointer;
+  border-radius: 2px;
+  margin-top: 10px;
+}
+
+div.venta_products div.modulo_pago form br {
+  margin-top: 10px;
+}
+
+h1.leftTitle {
+  margin-top: 80px;
+  text-align: left;
+  font-size: 28px;
+  margin-left: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 900px;
+}
+
+div.faqs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 16px;
+  background-position: center top;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 900px;
+}
+
+div.faqs ul {
+  -webkit-padding-start: 0px;
+          padding-inline-start: 0px;
+}
+
+div.faqs ul label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 30px;
+  text-align: left;
+}
+
+div.faqs p {
+  margin: 0px;
+  text-align: justify;
+  font-size: 12px 12px;
+}
+
+div.faqs a {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+div.faqs a input {
+  overflow: visible;
+  background-color: #7acc2d;
+  width: 100%;
+  font-size: 12px;
+  color: white;
+  border: 0;
+  cursor: pointer;
+  border-radius: 2px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+div.descripcion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 30px;
+  padding-left: 0px;
+}
+
+div.descripcion div.card_cats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+div.descripcion div.card_cats div.row img {
+  width: 240px;
+}
+
+div.descripcion div.card_cats div.content {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+div.descripcion div.card_cats div.content div.texto h2 {
+  padding-top: 50px;
+  text-align: justify;
+}
+
+div.descripcion div.card_cats div.content div.texto p {
+  margin-top: 10px;
+}
+
+div.content_paypal {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: center;
+  background-color: #313337;
+}
+
+div.content_paypal div.exito h2 {
+  color: white;
+}
+
+div.content_paypal div.exito img {
+  width: 150px;
+}
+
+div.content_paypal img {
+  padding-top: 100px;
+  padding-bottom: 10px;
+}
+
+div.content_paypal h3 {
+  color: white;
+}
+
+div.content_paypal p {
+  color: white;
+  padding-bottom: 150px;
+  margin-bottom: 0px;
+}
+
+.fadeInDown {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+
+div.content_paypal {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: center;
+  background-color: #313337;
+}
+
+div.content_paypal div.falla h2 {
+  color: white;
+}
+
+div.content_paypal div.falla img {
+  width: 150px;
+}
+
+div.content_paypal img {
+  padding-top: 100px;
+  padding-bottom: 10px;
+}
+
+div.content_paypal h3 {
+  color: white;
+}
+
+div.content_paypal p {
+  color: white;
+  padding-bottom: 160px;
+  margin-bottom: 0px;
+}
+
+.fadeInDown {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
 }
 
 body {

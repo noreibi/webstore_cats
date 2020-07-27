@@ -1,0 +1,69 @@
+@import "./vars";
+
+div.venta_products {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-position: center top;
+
+  div.modulo_pago_img {
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 298px;
+    text-align: center;
+    width: 100%;
+    margin-left: inherit;
+  }
+  img {
+    max-width: 298px;
+    margin-top: 40px;
+  }
+  h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  p {
+    text-align: center;
+    padding-bottom: 150px;
+  }
+
+  div.modulo_pago {
+    //width: 300px;
+    margin-top: 40px;
+
+    form {
+      margin-top: 30px;
+      width: 100%;
+      margin-bottom: 50px;
+      min-width: 500px;
+      input[type="text"] {
+        overflow: visible;
+        background-color: #ebebeb;
+        width: 100%;
+        max-width: 500px;
+        padding-top: $spacing;
+        padding-bottom: $spacing;
+        border: 0px;
+        border-radius: 2px;
+        margin-top: $spacing;
+      }
+
+      input[type="submit"] {
+        overflow: visible;
+        background-color: #7acc2d;
+        width: 100%;
+        padding: $spacing;
+        font-size: $font_size_normal;
+        color: $link_ligth;
+        border: 0;
+        cursor: pointer;
+        border-radius: 2px;
+
+        margin-top: $spacing;
+      }
+      br {
+        margin-top: $spacing;
+      }
+    }
+  }
+}
