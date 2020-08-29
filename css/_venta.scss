@@ -2,6 +2,7 @@
 
 div.venta_products {
   display: flex;
+  min-height: calc(100vh - 92px);
   justify-content: center;
   flex-wrap: wrap;
   background-position: center top;
@@ -48,7 +49,9 @@ div.venta_products {
         margin-top: $spacing;
       }
 
-      input[type="submit"] {
+      input[type="submit"],
+      .main_button {
+        display: block;
         overflow: visible;
         background-color: #7acc2d;
         width: 100%;
@@ -60,6 +63,10 @@ div.venta_products {
         border-radius: 2px;
 
         margin-top: $spacing;
+      }
+      .main_button {
+        width: auto;
+        text-align: center;
       }
       br {
         margin-top: $spacing;

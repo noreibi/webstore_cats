@@ -103,6 +103,7 @@ div.products div.product a {
 }
 
 div.products div.product a button {
+  display: inline-block;
   background-color: #7acc2d;
   width: 100%;
   padding: 10px;
@@ -215,7 +216,12 @@ div.menciones div.mentions div.content_mention {
 }
 
 div.menciones div.mentions div.content_mention img {
-  width: 100%;
+  width: 306px;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 0px 0px;
+     object-position: 0px 0px;
 }
 
 div.menciones div.mentions div.content_mention h3 {
@@ -231,6 +237,7 @@ div.menciones div.mentions div.content_mention p {
 }
 
 footer {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -365,6 +372,7 @@ div.venta_products {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  min-height: calc(100vh - 92px);
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -423,7 +431,9 @@ div.venta_products div.modulo_pago form input[type="text"] {
   margin-top: 10px;
 }
 
-div.venta_products div.modulo_pago form input[type="submit"] {
+div.venta_products div.modulo_pago form input[type="submit"],
+div.venta_products div.modulo_pago form .main_button {
+  display: block;
   overflow: visible;
   background-color: #7acc2d;
   width: 100%;
@@ -434,6 +444,11 @@ div.venta_products div.modulo_pago form input[type="submit"] {
   cursor: pointer;
   border-radius: 2px;
   margin-top: 10px;
+}
+
+div.venta_products div.modulo_pago form .main_button {
+  width: auto;
+  text-align: center;
 }
 
 div.venta_products div.modulo_pago form br {
@@ -511,7 +526,6 @@ div.descripcion {
       flex-wrap: wrap;
   margin-left: 100px;
   margin-right: 100px;
-  margin-top: 30px;
   padding-left: 0px;
 }
 
@@ -578,6 +592,10 @@ div.content_paypal p {
   margin-bottom: 0px;
 }
 
+div.content_paypal p a {
+  color: #7acc2d;
+}
+
 .fadeInDown {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
@@ -632,5 +650,6 @@ div.content_paypal p {
 body {
   margin: 0px;
   font-family: "Open Sans", sans-serif;
+  min-height: 100vh;
 }
 /*# sourceMappingURL=style.css.map */

@@ -2,6 +2,7 @@
 a {
   text-decoration: none;
 }
+
 nav.main-menu {
   background-color: $main_color;
   display: flex;
@@ -9,6 +10,7 @@ nav.main-menu {
   align-items: center;
   padding-left: 10px;
   padding-right: 10px;
+
   div.nav_options {
     ul {
       display: flex;

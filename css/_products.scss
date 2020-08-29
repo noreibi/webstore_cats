@@ -36,6 +36,7 @@ div.products {
     a {
       width: 100%;
       button {
+        display: inline-block;
         background-color: $main_color;
         width: 100%;
         padding: $spacing;

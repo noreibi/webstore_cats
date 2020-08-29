@@ -29,7 +29,10 @@ div.menciones {
       margin-bottom: 7px;
       box-shadow: $card_shadow;
       img {
-        width: 100%;
+        width: 306px;
+        height: 300px;
+        object-fit: cover;
+        object-position: 0px 0px;
       }
 
       h3 {
